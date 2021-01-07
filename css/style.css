@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Montserrat';
+    src:url('font/Montserrat-Bold.ttf')
+}
+
+ *{font-family:'Montserrat-Bold', sans-serif;}
+  
+.main-content{
+	width: 90%;
+	border-radius: 60px;
+	box-shadow: 0 5px 5px rgba(165, 120, 120, 0.4);
+	margin: 5em auto;
+	display: flex;
+}
+  /*entete avec la voiture*/
+.company__info{
+	background-color: #303657;
+	border: #303657;
+	justify-content:left;
+    
+}
+
+
+  /*MODE POTRAIT*/
+
+@media screen and (max-width: 830px) {
+	.main-content{widows: 300px;}
+	.company__info{
+		height: 200px;
+		padding-top: 60px;
+		flex-shrink: inherit;
+		border-bottom: #9c9b9b;
+
+	}
+
+	 .form__input{
+
+		border-radius: 4px;
+		margin-bottom: 10px;
+	    border-style: solid;
+	 }
+	 .row{color: gray; }
+
+	.img-fluid{
+		margin-top: -40px;
+		margin-bottom: 20px;	
+	}
+	.login_form{
+		font-family: 'Montserrat-Bold', sans-serif;
+		width: max-content;
+		background-color: #fcfcfc;
+		box-shadow: 2 10px 10px #9C9B9B;
+	}
+	.btn{
+		margin-top: 20px;
+		color:#f2fff0;
+		font-weight: 600;
+		background-color: #27B10E;
+		border-radius: 30px;
+		
+	}
+	 .titl{
+		 color:white;
+		 font-family: 'Montserrat-Bold', sans-serif;
+		  margin-top: -10px;
+		  margin-bottom:15px;
+		   font-size: 22px;
+		 
+	 }
+	.title{
+		font-family: 'Montserrat-Bold', sans-serif;
+		margin-top: 12px;
+		margin-bottom:-15px;
+		color: white;
+	}
+	.title2{
+		font-family: 'Montserrat-Bold', sans-serif;
+		margin-top: -12px;
+		margin-bottom:-30px;
+		color:#9C9B9B
+	}
+
+}
+    /*MODE PAYSAGE*/
+
+@media screen and (min-width: 768px) and (max-width:2600px){
+	.main-content{width: 50%;}
+	
+	.img-fluid {
+		padding-top: 80px;
+
+	}
+
+	.title2,.titl{
+		display: none;
+	}
+	
+.login_form{
+	background-color: #303657;
+	
+}
+.form__input{
+	width: 100%;
+	border:0px solid transparent;
+	margin-bottom: 25px;
+}
+
+.body {
+	font-family: 'Montserrat-Bold', sans-serif;
+	color: white;
+	padding-top: 90px;
+	}
+	.main-content {text-align: center;}
+
+}
+.title{
+	font-family: 'Montserrat-Bold', sans-serif;
+    margin-top: 12px;
+	margin-bottom:-15px;
+	color: white;
+}
+  
+
+
+.btn{
+	font-family: 'Montserrat-Bold', sans-serif;
+	height: 30px;
+	width: 100%;
+	margin-bottom: 12px;
+	color:#f2fff0;
+	font-weight: 200;
+	background-color: #27B10E;
+}
+.company__logo{
+	width: 90%;
+
+	
+
+}
+     /*PARTIE COMPOSANT LE LOGIN*/
+.container-fluid {
+	padding-top: 50px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+	
+	
+
+
+	
